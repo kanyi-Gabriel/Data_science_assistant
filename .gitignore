@@ -1,7 +1,15 @@
+# Ignore the environment file
 myenv/
 ds_expert/myApi.env
-ds_expert/myApi.env
+
+# Ignore python compiled cache folders
 __pycache__/
+
+# ignore compiled .ipy files
 *.pyc
+
+# ignore the development database
 db.sqlite3
+
+# ignore .env files that contai secretes
 .env
