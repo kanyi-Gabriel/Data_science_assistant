@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+           
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to AI Data Scientist</h1>
+        <p>Your one-stop solution for data analysis and insights powered by AI.</p>
+
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="text" name="name" placeholder="Your name" required>
+            <button type="submit">Welcome</button>
+        </form>
+
+        {% if greetings %}
+            <hr>
+            <h3>🤖 Ai Says</h3>
+            <p>{{ greetings }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
