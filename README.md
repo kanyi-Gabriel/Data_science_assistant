@@ -1,1 +1,1 @@
-# Data_science_assistant
+# Data_science_assistant_django_app
