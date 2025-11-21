@@ -2,6 +2,6 @@
 
 ### Project overview
 
-## Project Structure
+### Project Structure
 
-## Set up and Installation
+### Set up and Installation
