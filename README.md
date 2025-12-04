@@ -6,4 +6,6 @@
 
 ### Project Structure
 
+### Running the application
+
 ### Set up and Installation
